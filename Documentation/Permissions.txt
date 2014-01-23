@@ -1,0 +1,20 @@
+Permissions need to be set to these in eclipse in order for them to
+work on the Blue Host PHP Server
+
+Folders: 755
+Files: 644
+
+
+How:
+For Mac:
+	-Click Eclipse->Preferences
+	-Search FTP
+	-Change the settings accordingly:
+	
+	4 = Read
+	5 = Read/Execute
+	6 = Read/Write
+	7 = Read/Write/Execute
+	
+	The First number is Owner, Second is Group, Third is Other
+	So, for example: 755 mean 7 for owner, 5 for group, 5 for other

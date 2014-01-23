@@ -1,0 +1,26 @@
+
+.center-cropped 
+{ 
+	/*If you want a different width and height, do it manually in*/
+	width: 125px;/*define width and heigth of the cropped image*/
+	height: 125px;/*define the heigth of the cropped image*/
+	/*----------------------------------------------------------*/
+	
+	background-position: center center;/*centers the background image in the respective div*/
+	background-size: cover;/*resizes the background image to fit the div*/
+	background-repeat: no-repeat;/*ensures the background image doesn't repeat itself if its too small*/
+	
+	/*background-image: url('');*//*Put needed image inside of here*/
+}​
+
+/*Important:*/
+/*If you want to make the div clickable you must put an ahref= and a span*/
+.link-spanner
+{
+	position:absolute; /*Positions the span absolute so you can make it clickable*/
+	width:100%;/*For some reason, sometime this must be implemented manually in html file*/
+	height:100%;/*For some reason, sometime this must be implemented manually in html file*/
+	top:0; left: 0;/*Make the span fill the area*/
+	z-index: 1;/*To make the span in the front*/
+	background-image: url('empty.gif');/*To create a span with a href, must input an empty gif*/
+}   

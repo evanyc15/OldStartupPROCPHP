@@ -1,0 +1,21 @@
+How to comment in a repo push to GitHub
+-----------------------------------------------
+
+1. Make sure the Date and Time is on the top first line in the format as shown in the example below.
+2. First section contains new files added and a short description of what they do.
+3. Next section contains information of updates in specific files
+
+Example:
+
+07.07.13 9:30PM
+----------------------
+New:
+-------------
+-Added Login Page (More aesthetically pleasing and simpler for a user to look at when coming to anilum.com)
+
+-------------
+Updates:
+-------------
+-SignIn.html became GlobalPage.html
+-Default.html is now a login home page
+-Home page look became the GlobalPage.html

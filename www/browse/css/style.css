@@ -1,0 +1,76 @@
+.profile-image{
+	margin-left: 10px;
+	display:inline-block;
+}
+#load-spinner {
+	position: fixed;
+	z-index: 2000;
+	width: 20px;
+	height: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 50px;
+}
+
+#button-container
+{
+	visibility: hidden;
+	position: absolute; 
+	top:0; 
+	height: 50px; 
+	background-color: white;
+}
+
+.picture:hover #button-container{
+	visibility: visible;
+}
+
+#like-background
+{
+	cursor:default;
+	border: none;
+	position: absolute; 
+	top: 0; 
+	right: 0; 
+	height: 100%; 
+	width: 50%; 
+	background-color: white;
+}
+
+#bookmark-background
+{
+	cursor:default;
+	border: none;
+	position: absolute; 
+	top: 0; 
+	left: 0; 
+	height: 100%; 
+	width: 50%; 
+	background-color: white;
+}
+
+.color-1 
+{
+	color: #666;
+	font-size: 20px;
+}
+
+.color-1:hover {
+	color: #73b3ac;
+	font-size: 20px;
+}
+
+.color-2 
+{
+	color: #73b3ac;
+	font-size: 20px;
+}
+
+
+
+
+
+
+
